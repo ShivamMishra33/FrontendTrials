@@ -1,0 +1,22 @@
+.floatleft{
+    float: left;
+    border:5px solid red;
+    margin: 0 1rem 1rem 0;
+}
+
+article{
+    width: 30rem;
+    border: 3px solid red;
+    margin: 0 auto;
+}
+
+.floatright{
+    float: right;
+    border: 5px solid red;
+}
+
+article:after{
+    content: "";
+    display: table;
+    clear: both;
+}
