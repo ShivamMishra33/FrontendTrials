@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid test 2</title>
+    <style>
+        .wrapper{
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 1em;
+            grid-auto-rows: minmax(10px,auto);        
+        }
+        .wrapper > div{
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper >div:nth-child(odd){
+            background: green;
+        }
+        .nested{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-auto-rows: 35px;
+            grid-gap: 1rem;
+        }
+
+        .nested> div{
+            border: red solid 3px;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+   <div class="wrapper">
+       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, distinctio!</div>
+       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, distinctio!</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, accusantium expedita magni aut nemo numquam dolor, eligendi eaque libero iste hic iure vel tempora dolorem harum recusandae tenetur totam maxime doloremque placeat molestiae? Impedit ab quaerat asperiores non. Tempore voluptatibus id recusandae blanditiis facilis deleniti, optio dolorem distinctio mollitia nesciunt facere modi incidunt, explicabo doloribus beatae sapiente illum! Aut, error blanditiis debitis architecto enim rerum veritatis assumenda adipisci facilis non nemo, repudiandae distinctio autem impedit consequatur doloribus consequuntur delectus odio voluptate. Asperiores ex vel omnis beatae aperiam atque, earum et impedit dolorum perferendis in officiis, sint aliquam, quasi dignissimos? Ad.</div>
+       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, distinctio!</div>
+
+       <div class="nested">
+           <div>nested</div>
+           <div>nested</div>
+           <div>nested</div>
+           <div>nested</div>
+       </div>
+
+       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, distinctio!</div>
+
+       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, distinctio!</div>
+
+       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, distinctio!</div>
+
+       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, distinctio!</div>
+       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, distinctio!</div>
+       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, distinctio!</div>
+
+
+   </div>
+    
+</body>
+</html>
