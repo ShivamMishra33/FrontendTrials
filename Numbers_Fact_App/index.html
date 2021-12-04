@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers API</title>
+    <style>
+        *{
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        body{
+            background-image: url(bg-image.jpg);
+            /* background: black; */
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px;
+        }
+        section{
+            background-color: black;
+            height: 75%;
+            width: 80%;
+            border: 10px solid whitesmoke;
+        }
+        input[type="number"]{
+            width: 75%;
+            border: black;
+            border-radius: 1rem;
+        }
+        input[type="number"]::placeholder{
+            font-size: 20px;
+            font-weight: 400;
+            color: black;
+        }
+        button{
+            width: 20%;
+            border-radius: 0.5rem;
+            font-size: 15px;
+            font-weight: 600;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <section>
+    <div class="wrapper">
+        
+        <input type="number" id="number" placeholder="Enter your number">
+        <button type="submit" id="submit" value="submit" >Submit</button>
+    </div>
+
+    <div id="number-fact"class="number-fact">Enter your number to see an interesting fact about that number</div>
+    </section>
+
+
+    <script src="./numberfact.js" >
+
+    </script>
+    
+</body>
+</html>
