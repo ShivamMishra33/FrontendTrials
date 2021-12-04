@@ -1,0 +1,679 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+body{
+    
+    background: #E5E5E5;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 1366px;
+    display: flex;
+    
+    
+}
+
+.nav-container{
+    
+    width: 1366px;
+    height: 84px;
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+
+nav{
+    
+    display: flex;
+    width: 1086px;
+    height: 53px;
+    position: absolute;
+    left: 140px;
+    top: 16px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+   
+    width: 209px;
+    height: 24px;
+    position: absolute;
+    left: 747px;
+    top:14px;
+}
+
+ul li{
+    width: auto;
+    height: 24px;
+}
+
+.nav-links li:nth-child(1){
+    
+    position: absolute;
+    left: 0px;
+}
+.nav-links li:nth-child(2){
+    
+    position: absolute;
+    left: 72px;
+}
+.nav-links li:nth-child(3){
+    
+    position: absolute;
+    left: 139px;
+}
+
+.login{
+    position: absolute;
+    width: 98px;
+    height: 40px;
+    border: 1.5px solid #C7AB81;
+    border-radius: 31px;
+    color: #C7AB81;
+    top: 6px;
+    right: 0;
+}
+
+
+
+.hero-container{
+   
+    width: 1086px;
+    position: absolute;
+    top: 194px;
+    left: 140px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    
+}
+
+.hero-content{
+    width: 489px;
+    height: 331px;
+    position: relative;
+}
+
+.hero-content h1{
+    
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 52px;
+line-height: 115.34%;
+/* or 60px */
+
+letter-spacing: -0.03em;
+
+color: #1D3444;
+}
+
+.hero-desc{
+    position: absolute;
+    top: 140px;
+    height: 59px;
+    width: 400px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 138%;
+/* or 25px */
+
+
+/* text/med emp */
+
+color: #6A6A6A;
+}
+.mobile-icons{
+    position: absolute;
+    bottom: 0px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* text/low emp */
+
+color: #979797;
+}
+
+
+.hero-content button{
+    position: absolute;
+    bottom: 45px;
+    width: 180px;
+height: 48px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* text/white */
+border-color: #C7AB81;;
+border-radius: 31px;
+background: #C7AB81;
+color: #FFFFFF;
+}
+
+
+
+
+.carousel{
+    
+    position: absolute;
+    top: 910px;
+    width: 1366px;
+    height: 546px;
+    display: flex;
+    
+    align-items: center;
+    background: #EEE6DC
+    
+    
+}
+
+.carousel-image img:nth-child(2){
+    
+    position: absolute;
+    left: 212px;
+}
+
+.carousel-image img:nth-child(3){
+    
+    position: absolute;
+    top: 53px;
+    left: 140px;
+}
+
+.carousel-content{
+    
+    background: #EEE6DC
+}
+
+.carousel-content h1{
+    position: absolute;
+    top: 151px;
+    left:695px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 52px;
+line-height: 115.34%;
+/* identical to box height, or 60px */
+
+letter-spacing: -0.03em;
+
+color: #1D3444;
+}
+
+.carousel-content h2{
+    position: absolute;
+    top: 291px;
+    left: 695px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 115.34%;
+/* identical to box height, or 37px */
+
+letter-spacing: -0.03em;
+
+color: #1D3444;
+}
+
+.carousel-content h3{
+    width: 247px;
+    height: 54px;
+    position: absolute;
+    top: 340px;
+    left: 695px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 138%;
+/* or 25px */
+
+
+/* text/med emp */
+
+color: #6A6A6A;
+}
+
+
+
+.call-out {
+    
+    position: absolute;
+    width: 1086px;
+    height: 163px;
+    left: 140px;
+    top: 1588px;
+}
+
+.box-2{
+    position: absolute;
+width: 1071px;
+height: 148px;
+left: 14px;
+top: 15px;
+
+border: 1px solid #C7AB81;
+box-sizing: border-box;
+}
+
+.box-1{
+    position: absolute;
+width: 1068px;
+height: 148px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #C7AB81;
+box-sizing: border-box;
+z-index: 100;
+}
+
+.box-1 h1{
+    position: absolute;
+width: 459px;
+height: 44px;
+left: 39px;
+top: 26px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 138%;
+/* or 44px */
+
+
+color: #1D3444;
+}
+
+.box-1 h2{
+    position: absolute;
+width: 930px;
+height: 44px;
+left: 39px;
+top: 78px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 138%;
+/* or 22px */
+
+
+color: #1D3444;
+}
+
+.jumbotron-1{
+    position: absolute;
+width: 1366px;
+height: 714px;
+left: 0px;
+top: 1883px;
+}
+
+.grid-container{
+    
+    position: absolute;
+width: 1086px;
+height: 1302px;
+left: 140px;
+top: 2879px;
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 24px;
+align-items: center;
+justify-items: center;
+
+}
+
+
+.box-3{
+    
+    grid-column: 1/4;
+    display: flex;
+    position: relative;
+    margin-bottom: 89px;
+    justify-content: space-between;
+    height: 209px;
+    width: 1086px;
+    align-items: center;
+
+
+    
+}
+
+.box-3 h1{
+    
+    width: 489px;
+height: 120px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 52px;
+line-height: 115.34%;
+/* or 60px */
+
+letter-spacing: -0.03em;
+
+color: #1D3444;
+}
+.box-3 h2{
+   
+    width: 376px;
+height: 84px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 138%;
+/* or 25px */
+
+
+/* text/med emp */
+
+color: #6A6A6A;
+}
+
+.box-5{
+    position: relative;
+}
+
+.box-5 div{
+    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 346px;
+height: 214.22px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+justify-items: center;
+align-items: center;
+background: #252525;
+mix-blend-mode: multiply;
+border-radius: 12px;
+color: #FFFFFF;
+opacity: 1;
+
+
+}
+
+.box-10{
+    grid-column: 1/4;
+}
+.box-10 button{
+    width: 204px;
+height: 48px;
+left: 441px;
+top: 1045px;
+
+border: 1.5px solid #C7AB81;
+box-sizing: border-box;
+border-radius: 31px;
+color: #C7AB81 ;
+}
+
+.jumbotron-2{
+    
+    position: absolute;
+width: 1366px;
+height: 303px;
+left: 0px;
+top: 4361px;
+display: flex;
+justify-items: center;
+align-items: center;
+justify-content: space-between;
+
+background: #d4b88e;
+}
+
+.jumbotron-2 .content{
+    
+    width: 631px;
+height: 214px;
+left: 140px;
+top: 0px;
+}
+.content{
+    position: relative;
+}
+
+.content h1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 52px;
+line-height: 115.34%;
+/* identical to box height, or 60px */
+
+letter-spacing: -0.03em;
+
+/* text/white */
+
+color: #FFFFFF;
+
+
+
+}
+
+.content h2{
+    position:absolute;
+    top: 68px;
+    left: 1px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 115.34%;
+/* or 21px */
+
+letter-spacing: -0.03em;
+
+/* text/white */
+
+color: #FFFFFF;
+}
+
+.content div{
+
+    position: absolute;
+    top: 148px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 115.34%;
+/* or 18px */
+
+letter-spacing: -0.03em;
+
+/* text/white */
+
+color: #FFFFFF;
+
+}
+
+.jumbotron-2 div:nth-child(2){
+    
+    width:435px;
+    height: 303px;
+    background: #C7AB81;
+}
+
+.jumbotron-2 div button{
+    position: absolute;
+width: 194px;
+height: 48px;
+left: 1032px;
+top: 128px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 24px rgba(160, 126, 75, 0.28);
+border-radius: 31px;
+color: #C7AB81;
+border-color: #C7AB81;;
+}
+
+.footer{
+ 
+    position: absolute;
+width: 1096px;
+height: 273px;
+left: 130px;
+top: 4712px;
+
+
+}
+
+.footer-logo h1{
+    position: absolute;
+    top: 10px;
+    left: 77px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 115.34%;
+/* identical to box height, or 37px */
+
+
+/* text/high emp */
+
+color: #1C1A17;
+
+}
+
+
+
+
+
+.footer-links ul{
+    
+    
+    position: absolute;
+    top: 14px;
+    left: 750px;
+    height: 144px;
+    width: 61px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 115.34%;
+/* or 18px */
+
+font-variant: small-caps;
+
+/* text/med emp */
+
+color: #6A6A6A;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    
+       
+}
+
+
+
+
+
+
+.social-links{
+    position: absolute;
+    top: 14px;
+    left: 965px;
+   
+    display: flex;
+    flex-direction: column;
+    height: 158px;
+    width: 121px;
+    justify-content: space-between;
+    color: #C7AB81;
+    
+
+}
+
+.social-links h3{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 115.34%;
+/* or 18px */
+
+
+/* text/low emp */
+
+color: #979797;
+
+}
+
+.social-links h2{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 115.34%;
+/* identical to box height, or 37px */
+
+
+color: #C7AB81;
+}
+
+.trademarks{
+    position: absolute;
+    bottom: 0px;
+
+    border-top: #979797 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1086px;
+    height: 46px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* text/med emp */
+
+color: #6A6A6A;
+    
+}
